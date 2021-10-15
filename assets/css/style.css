@@ -17,7 +17,6 @@ body {
 
 header {
   padding: 20px;
-  background-color: #39a6b2;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -34,7 +33,7 @@ header {
 
 header h1 {
   font-weight: bold;
-  font-size: 42px;
+  font-size: 60px;
   color: #A65746;
   margin: 0;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -66,10 +65,40 @@ header nav ul {
   list-style: none;
 }
 
-/* header nav ul li a {
-} */
-
 section {
-  padding: 60px;
+  padding: 25px;
 }
 
+#about-me {
+  background-color: #6997BF;
+  width: 65%;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+article h2 {
+  color: #A65746;
+  font-size: 32px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.about img {
+  width: 400px;
+  height: 400px;
+  margin-right: 20px;
+  vertical-align: middle;
+  float: left;
+}
+
+.about p {
+  display: flex;
+  flex-wrap: wrap;
+  color: #A65746;
+  font-size: 24px;
+  margin-left: 20px;
+  align-items: center;
+}
