@@ -7,10 +7,10 @@
 body {
   background-image: url("../images/background.jpg");
   background-size: cover;
-  background-position: center; */
-  display: flex;
+  background-position: center;
+  /* display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  /* align-items: flex-start; */
   background-attachment: fixed;
   background-position: 80%;
 }
@@ -32,14 +32,15 @@ header {
 }
 
 header h1 {
+  color: #a65746;
   font-weight: bold;
   font-size: 60px;
-  color: #A65746;
   margin: 0;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header nav ul li {
+  color: #a65746;
   list-style-type: none;
   padding: 10px;
   margin: 5px;
@@ -48,9 +49,15 @@ header nav ul li {
   font-size: 28px;
 }
 
+header nav ul li:hover {
+  background: #6997bf;
+  border-radius: 15px;
+  text-shadow: none;
+}
+
 header a {
   text-decoration: none;
-  color: #A65746;
+  color: #a65746;
 }
 
 header nav {
@@ -67,10 +74,11 @@ header nav ul {
 
 section {
   padding: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #about-me {
-  background-color: #6997BF;
+  background-color: #6997bf;
   width: 65%;
   margin: 20px;
   display: flex;
@@ -79,9 +87,9 @@ section {
   align-items: center;
 }
 
-article h2 {
-  color: #A65746;
-  font-size: 32px;
+.section-title {
+  color: #a65746;
+  font-size: 24px;
   text-align: center;
   padding-bottom: 20px;
 }
@@ -92,13 +100,70 @@ article h2 {
   margin-right: 20px;
   vertical-align: middle;
   float: left;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .about p {
   display: flex;
   flex-wrap: wrap;
-  color: #A65746;
+  color: #a65746;
   font-size: 24px;
   margin-left: 20px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+#my-work {
+  background-color: #6997bf;
+  width: 65%;
+  float: right;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work img {
+  width: 33%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  justify-content: space-evenly;
+}
+
+.work p {
+  display: flex;
+  flex-wrap: wrap;
+  color: #a65746;
+  font-size: 24px;
+  margin-left: 20px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+#contact-me {
+  background-color: #6997bf;
+  width: 35%;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
+  color: #a65746;
+}
+
+address {
+  font-style: normal;
+  margin: 15px;
+  padding: 15px;
+  text-align: center;
+  color: inherit;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+address a {
+  text-decoration: none;
+  color: inherit;
+}
+
+address a:hover {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
